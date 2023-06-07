@@ -1,6 +1,5 @@
 export const addNilai = ( item, idx, e ) =>{
   item[idx] = parseInt(e.target.value)
-  console.log(item)
   }
 
 export const result = (aspek1, aspek2, aspek3, aspek4) =>{
