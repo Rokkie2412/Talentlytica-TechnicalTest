@@ -1,5 +1,5 @@
 export const addNilai = ( item, idx, e ) =>{
-  item[idx] = e.target.value
+  item[idx] = parseInt(e.target.value)
   console.log(item)
   }
 

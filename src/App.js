@@ -104,6 +104,7 @@ function App() {
           <button
             onClick={() =>{
               setOutput(result(aspek1,aspek2,aspek3,aspek4))
+              console.log(result(aspek1,aspek2,aspek3,aspek4))
             }}
           >Simpan</button>
         </div>
