@@ -1,4 +1,4 @@
-This project only for** Talentlytica Recruitment OnlY**
+This project only for Talentlytica Recruitment Only
 
 ## Important Scripts
 
