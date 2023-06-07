@@ -1,9 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React,{useState} from 'react';
 import {FaUserCircle} from 'react-icons/fa';
-import { result } from './function';
-import './App.css';
+
 import Mahasiswa from './components/Mahasiswa/Mahasiswa';
+import './App.css';
+import { result } from './function';
+
 
 function App() {
   const [output,setOutput] = useState(null);
