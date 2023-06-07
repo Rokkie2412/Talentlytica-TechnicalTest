@@ -1,7 +1,9 @@
+//function for add data to array
 export const addNilai = ( item, idx, e ) =>{
   item[idx] = parseInt(e.target.value)
   }
 
+//function for convert data to object
 export const result = (aspek1, aspek2, aspek3, aspek4) =>{
   let hasil = {
     aspek_penilaian_1 : {
