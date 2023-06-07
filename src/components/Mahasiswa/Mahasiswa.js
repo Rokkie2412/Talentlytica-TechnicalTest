@@ -1,8 +1,9 @@
 import React from 'react'
+import { addNilai } from '../../function'
 
-const Mahasiswa = ({onChange}) => {
+const Mahasiswa = ({item, idx}) => {
   return (
-    <select onChange={onChange}>
+    <select onChange={(event) => addNilai(item, idx, event)}>
       <option value={1}>1</option>
       <option value={2}>2</option>
       <option value={3}>3</option>

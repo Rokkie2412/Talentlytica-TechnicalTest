@@ -76,3 +76,13 @@ button{
 span{
   display: flex;
 }
+
+.result{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+}
